@@ -1,1 +1,22 @@
-/* write your override styles here */
+/* Tag overrides to simulate cleaning */
+#tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+    background: none !important; /* Ensures no background images are displayed */
+    display: none !important; /* Completely hides the elements */
+}
+
+/* Enhanced class overrides for additional cleanup */
+.slick, .wicked {
+    visibility: hidden !important; /* Ensures elements are not visible */
+    font-style: normal !important; /* Resets any font styling */
+}
+
+/* General cleanup to ensure comprehensive override */
+/* Targets all divs within #wall to ensure no styles are missed */
+#wall div {
+    background: none !important; /* Clears any background settings */
+    color: transparent !important; /* Makes text transparent, if any */
+    border: none !important; /* Removes any borders */
+    box-shadow: none !important; /* Clears any box shadows */
+    opacity: 0 !important; /* Fully transparent, ensuring elements are invisible */
+    display: none !important; /* Ensures elements do not take up space in the layout */
+}
